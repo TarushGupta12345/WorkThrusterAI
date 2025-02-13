@@ -1,0 +1,8 @@
+# Ignore Python bytecode
+__pycache__/
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore logs
+*.log
