@@ -1,29 +1,27 @@
-# PassionProject
+# WorkThruster AI  🚀
 
-This template should help get you started developing with Vue 3 in Vite.
+WorkThruster was intended to be the one place for all your work. It works through reading the user's email and identifying relevant snippets, then generating todos based on
+the snippets and checking for redundancies. While this current system works by pulling email commands through a thread and running email todos in another thread, it was
+supposed to integrate Slack, Calendar, and other applications. 
 
-## Recommended IDE Setup
+## Installation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following libraries:
 
-## Customize configuration
+google_api_python_client
+google_auth_httplib2
+google_auth_oauthlib
+langchain_openai
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+pip install langchain-openai
 ```
+## Usage
 
-### Compile and Hot-Reload for Development
+Authenticate your user account and run the todospipeline.py file to get a list of todos in json format.
 
-```sh
-npm run dev
-```
+## Questions
 
-### Compile and Minify for Production
+Please email tarushgs@gmail.com with any questions.
 
-```sh
-npm run build
-```
