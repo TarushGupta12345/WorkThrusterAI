@@ -5,7 +5,7 @@ import threading
 from langchain_openai import ChatOpenAI
 import emailGetter
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY_HERE"
 
 llm = ChatOpenAI(model="gpt-4o-mini")
 
